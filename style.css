@@ -230,7 +230,7 @@ blockquote {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .gallery-item img {
     max-width: 100%;
@@ -240,7 +240,7 @@ blockquote {
 }
 .gallery-item {
     background-color: var(--light);
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,8 +248,11 @@ blockquote {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     color: var(--gray);
     font-weight: 500;
+    gap: 1rem;
 }
 
+
+#
 /* Contact Section */
 .contact-container {
     display: grid;
